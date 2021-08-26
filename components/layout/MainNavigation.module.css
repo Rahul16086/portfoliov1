@@ -1,0 +1,48 @@
+.header{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    background-color: #DAA520;
+    color: black;
+    height: 10vh;
+    display: flex;
+    width: 100vw;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.leftSideContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10vw;
+}
+
+.logo{
+    cursor: pointer;
+    object-fit: contain;
+    transform: scale(.8);
+}
+
+.rightSideContainer{
+    width: 50%;
+    padding-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightSideContainer ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.rightSideContainer li{
+    cursor: pointer;
+}

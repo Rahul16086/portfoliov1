@@ -1,0 +1,36 @@
+.mainContainer{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainContainer h1{
+    color: #C29115;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.mainContainer p{
+    width: 60vw;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.socialHandles{
+    margin: 10px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    cursor: pointer;
+    transform: scale(0.65);
+}
+
+.reachMe{
+    margin-top: 6rem;
+}

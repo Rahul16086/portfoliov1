@@ -1,11 +1,8 @@
 import React from "react";
+import WorkComponent from "../components/works/Works";
 
-const Works = () => {
-  return (
-    <div>
-      <h1>Works here!</h1>
-    </div>
-  );
+const Work = () => {
+  return <WorkComponent />;
 };
 
-export default Works;
+export default Work;

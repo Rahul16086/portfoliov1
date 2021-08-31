@@ -4,22 +4,36 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: calc(100vh - 10vh);
 }
 
-.mainContainer h1{
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe h1,.reachMe h1{
     color: #C29115;
     font-size: 3rem;
     letter-spacing: 2px;
+    margin-top: 20px;
 }
 
-.mainContainer p{
+.aboutMe p{
     width: 60vw;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 20px;
 }
 
+.reachMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .socialHandles{
-    margin: 10px;
+    margin: 20px;
     width: 50vw;
     display: flex;
     align-items: center;

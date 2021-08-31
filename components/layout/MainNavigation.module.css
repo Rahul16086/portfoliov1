@@ -6,6 +6,7 @@
     z-index: 100;
     background-color: #DAA520;
     color: black;
+    /*height: 6rem;*/
     height: 10vh;
     display: flex;
     width: 100vw;

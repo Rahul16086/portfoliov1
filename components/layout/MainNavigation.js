@@ -18,7 +18,7 @@ const MainNavigation = () => {
             <li>Skills</li>
           </Link>
           <Link href={"/works"}>
-            <li>Works</li>
+            <li>Work</li>
           </Link>
           <Link href={"/contactme"}>
             <li>Contact Me</li>

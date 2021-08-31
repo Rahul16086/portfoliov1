@@ -1,0 +1,49 @@
+.mainContainer{
+    width: 100vw;
+    height: calc(100vh - 10vh);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h1{
+    color: #C29115;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.description h2{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.description button{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #C29115;
+    background-color: transparent;
+    color: #C29115;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.imageContainer{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+}

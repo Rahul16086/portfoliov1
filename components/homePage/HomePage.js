@@ -1,0 +1,29 @@
+import React from "react";
+import classes from "./HomePage.module.css";
+import Image from "next/image";
+import me from "../../public/work/myPic.svg";
+import Link from "next/link";
+
+const HomePage = () => {
+  return (
+    <>
+      <div className={classes.mainContainer}>
+        <div className={classes.description}>
+          <h1>Hi There! I am Rahul</h1>
+          <h2>
+            I am a fullstack web developer. I build apps and interactive
+            webpages.
+          </h2>
+          <Link href={"/contactme"}>
+            <button>Catch me</button>
+          </Link>
+        </div>
+        <div className={classes.imageContainer}>
+          <Image src={me} alt={"me"} />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default HomePage;

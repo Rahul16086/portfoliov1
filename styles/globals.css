@@ -3,11 +3,16 @@
 html,
 body {
   padding: 0;
+  margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: black;
-  /*margin-top: 3rem;*/
-  margin-top: 5vh;
   color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+main{
+  margin-top: 10vh;
 }
 
 a {
@@ -19,4 +24,30 @@ a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px #daa520;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #daa520;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #e5a90f;
+}
+
+@media (max-width: 40rem) {
+  ::-webkit-scrollbar{
+    width: 5px;
+  }
 }

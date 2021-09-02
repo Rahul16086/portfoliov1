@@ -32,6 +32,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .socialHandles{
     margin: 20px;
     width: 50vw;
@@ -47,4 +48,24 @@
 
 .reachMe{
     margin-top: 6rem;
+}
+
+@media (max-width: 40rem){
+    .mainContainer{
+        width: 100vw;
+    }
+
+    .aboutMe h1, .reachMe h1{
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    .aboutMe p{
+        font-size: 1.12rem;
+        width: 95vw;
+    }
+
+    .socialHandles{
+        width: 70vw;
+    }
 }

@@ -27,7 +27,7 @@
 }
 
 .description button{
-    width: 150px;
+    width: 250px;
     height: 40px;
     border-radius: 40px;
     font-family: Poppins,sans-serif;
@@ -46,4 +46,32 @@
     align-items: flex-end;
     justify-content: flex-end;
     width: 50%;
+}
+
+@media (max-width: 40rem) {
+    .mainContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .description{
+        height: 100%;
+        width: 80%;
+    }
+
+    .description h1{
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .description h2{
+        font-size: 1rem;
+    }
+
+    .imageContainer{
+        width: 100vw;
+        bottom: 0;
+    }
 }

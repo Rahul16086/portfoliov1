@@ -17,6 +17,10 @@ import cartEmpty from "../../public/work/amazon-clone/cartEmpty.png";
 import aLogin from "../../public/work/amazon-clone/login.png";
 import loginHome from "../../public/work/amazon-clone/mobile/loginHome.png";
 import navCart from "../../public/work/amazon-clone/mobile/navCart.png";
+import spotifyTechStack from "../../public/work/spotify-clone/TechStack.svg";
+import logoLogin from "../../public/work/spotify-clone/logologin.png";
+import spotifyHome from "../../public/work/spotify-clone/home.png";
+import loginApi from "../../public/work/spotify-clone/apiLogin.png";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import techStack from "../../public/work/techstack/TechStack.svg";
@@ -27,8 +31,11 @@ const WorkComponent = () => {
   const dumbMSlideImages = [mLogin, notes, mapNav];
   const amazonSlide = [home, cart, cartEmpty, aLogin];
   const amazonMSlide = [loginHome, navCart];
+  const spotifySlides = [spotifyHome, logoLogin, loginApi];
+
   const [dumbMobileToggled, setDumbMobileToggled] = useState(true);
   const [amazonMobileToggled, setAmazonMobileToggled] = useState(true);
+
   const viewToggle = () => {
     setDumbMobileToggled(() => !dumbMobileToggled);
   };
@@ -65,7 +72,7 @@ const WorkComponent = () => {
             </div>
           )}
           {!dumbMobileToggled && (
-            <div className={classes.mSlides}>
+            <div className={classes.slides}>
               <Slide transitionDuration={750}>
                 <div>
                   <Image src={dumbMSlideImages[0]} />
@@ -82,7 +89,11 @@ const WorkComponent = () => {
         </div>
         <div className={classes.details}>
           <h1>Dumb Notes</h1>
-          <p>A simple note taking app with authentication and geolocation. </p>
+          <p>
+            A simple note taking app with authentication and geolocation. The
+            user can create an account using his email or login using google
+            account/phone number(+91 only).
+          </p>
           <Image src={techStack} alt={"techUsed"} />
           <div className={classes.buttonsContainer}>
             <Link href={"https://dumb-notes.web.app/"}>
@@ -101,6 +112,7 @@ const WorkComponent = () => {
           </div>
         </div>
       </div>
+
       <div className={classes.workContainer}>
         <div className={classes.slidesContainer}>
           {amazonMobileToggled && (
@@ -122,7 +134,7 @@ const WorkComponent = () => {
             </div>
           )}
           {!amazonMobileToggled && (
-            <div className={classes.mSlides}>
+            <div className={classes.slides}>
               <Slide transitionDuration={750}>
                 <div>
                   <Image src={amazonMSlide[0]} />
@@ -136,7 +148,10 @@ const WorkComponent = () => {
         </div>
         <div className={classes.details}>
           <h1>Amazon - Clone</h1>
-          <p>Tried to clone Amazon website using React and firebase. </p>
+          <p>
+            Tried to clone Amazon website using React and firebase. User can
+            create an account and sign in using the same.
+          </p>
           <Image src={amazonTechStack} />
           <div className={classes.buttonsContainer}>
             <Link href={"https://like-clone-16.web.app/"}>
@@ -148,6 +163,44 @@ const WorkComponent = () => {
               {amazonMobileToggled ? "Mobile" : "Desktop"}
             </button>
             <Link href={"https://github.com/Rahul16086/amazon-clone"}>
+              <a target={"_blank"}>
+                <button>Code</button>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className={classes.workContainer}>
+        <div className={classes.slidesContainer}>
+          <div className={classes.slides}>
+            <Slide transitionDuration={700}>
+              <div>
+                <Image src={spotifySlides[0]} />
+              </div>
+              <div>
+                <Image src={spotifySlides[1]} />
+              </div>
+              <div>
+                <Image src={spotifySlides[2]} />
+              </div>
+            </Slide>
+          </div>
+        </div>
+        <div className={classes.details}>
+          <h1>Spotify - Clone</h1>
+          <p>
+            A simple Spotify clone using spotify api and React. User can login
+            using a spotify account and view the current playlist.
+          </p>
+          <Image src={spotifyTechStack} />
+          <div className={classes.buttonsContainer}>
+            <Link href={"https://spotify-clone-dd6c2.web.app/"}>
+              <a target={"_blank"}>
+                <button>View</button>
+              </a>
+            </Link>
+            <Link href={"https://github.com/Rahul16086/spotify-clone"}>
               <a target={"_blank"}>
                 <button>Code</button>
               </a>

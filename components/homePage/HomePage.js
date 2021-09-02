@@ -11,11 +11,11 @@ const HomePage = () => {
         <div className={classes.description}>
           <h1>Hi There! I am Rahul</h1>
           <h2>
-            I am a fullstack web developer. I build apps and interactive
-            webpages.
+            I am a fullstack web developer. I build webpages which are both
+            responsive and interactive.
           </h2>
           <Link href={"/contactme"}>
-            <button>Catch me</button>
+            <button>Catch me here!</button>
           </Link>
         </div>
         <div className={classes.imageContainer}>

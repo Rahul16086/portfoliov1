@@ -1,10 +1,12 @@
 .mainContainer{
     width: 100vw;
-    height: calc(100vh - 10vh);
+    /*height: calc(100vh - 10vh);*/
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url("../../public/BG Ellipse.png");
+    background-attachment: fixed;
 }
 
 .workContainer{
@@ -30,12 +32,6 @@
 
 .slides{
     padding: 5px;
-    width: 90%;
-}
-
-.mSlides{
-    /*border: 2px solid red;*/
-    margin:10px;
     width: 90%;
 }
 
@@ -87,4 +83,53 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media (max-width: 40rem) {
+    .mainContainer{
+        width: 100vw;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .workContainer{
+        flex-direction: column;
+        width: 92vw;
+        height: 500px;
+        margin: 10px 0 10px 0;
+    }
+
+    .slidesContainer{
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .slides{
+        padding: 0;
+    }
+
+    .details{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .details h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .details p{
+        font-size: 1.1rem;
+        margin: 0 0 10px 0;
+    }
+
+    .details img{
+        transform: scale(0.85);
+    }
+
+    .buttonsContainer{
+        width: 100%;
+        margin: 10px;
+    }
 }

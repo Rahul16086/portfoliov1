@@ -137,9 +137,9 @@
     }
 
     .skillsContainer{
-        margin: 0;
         width: 80vw;
         flex-direction: column;
+        margin: 10px 0 10px 0;
     }
 
     .skills{
@@ -147,6 +147,7 @@
         height: 150px;
         grid-gap: .5rem;
         grid-template-columns: 190px 50px;
+        margin: 0 0 10px 0;
     }
 
     .skills h1{

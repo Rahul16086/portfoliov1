@@ -6,7 +6,6 @@
     z-index: 100;
     background-color: #DAA520;
     color: black;
-    /*height: 6rem;*/
     height: 10vh;
     display: flex;
     width: 100vw;
@@ -22,6 +21,7 @@
     justify-content: flex-start;
     padding-left: 10vw;
 }
+
 .hamburger{
     display: none;
 }
@@ -84,5 +84,6 @@
 
     .mobileView li{
         margin-bottom: 20px;
+        text-align: center;
     }
 }

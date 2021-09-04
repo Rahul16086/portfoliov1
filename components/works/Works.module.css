@@ -89,7 +89,7 @@
     .mainContainer{
         width: 100vw;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: contain;
     }
 
     .workContainer{

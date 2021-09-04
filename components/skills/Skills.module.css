@@ -8,6 +8,13 @@
     background-image: url("../../public/BG Ellipse.png");
 }
 
+.firstHalf{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .consolidatedSkills{
     width: 30vw;
     height: 220px;
@@ -126,6 +133,7 @@
     .consolidatedSkills{
         height: 200px;
         width: 80vw;
+        margin-top: 10px;
     }
 
     .skillsContainer{

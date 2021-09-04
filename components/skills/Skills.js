@@ -36,8 +36,8 @@ const SkillsComponent = () => {
       </div>
 
       <div className={classes.skillsContainer}>
-        <div>
-          <div className={classes.skills}>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
             <h1>Languages</h1>
             <p>
               Javascript <br />
@@ -47,29 +47,36 @@ const SkillsComponent = () => {
               <br /> C
             </p>
           </div>
-          <div className={classes.skills}>
+        </div>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
             <h1>Front-end</h1>
             <p>
               HTML <br />
               CSS <br />
               React
+              <br />
+              Bootstrap
             </p>
-            <h1>UI/UX</h1>
-            <p>Figma</p>
           </div>
         </div>
-        <div>
-          <div className={classes.skills}>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
             <h1>Back-end</h1>
             <p>
               Firebase
-              <br />
-              NodeJS
+              <br /> NodeJS
             </p>
+          </div>
+        </div>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
             <h1>Mobile</h1>
             <p>Android Studio</p>
           </div>
-          <div className={classes.skills}>
+        </div>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
             <h1>Database</h1>
             <p>
               SQL
@@ -78,10 +85,50 @@ const SkillsComponent = () => {
               <br />
               MongoDB
             </p>
-            <h1>Version Control</h1>
-            <p>Git Github</p>
           </div>
         </div>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
+            <h1>Version Control</h1>
+            <p>
+              Git
+              <br />
+              Github
+            </p>
+          </div>
+        </div>
+        <div className={classes.skills}>
+          <div className={classes.individual}>
+            <h1>UI/UX</h1>
+            <p>
+              Figma
+              <br />
+              Adobe Photoshop
+            </p>
+          </div>
+        </div>
+        {/*</div>*/}
+        {/*<div>*/}
+        {/*  <h1>UI/UX</h1>*/}
+        {/*  <p>Figma</p>*/}
+        {/*</div>*/}
+        {/*  </p>*/}
+        {/*  <h1>Mobile</h1>*/}
+        {/*  <p>Android Studio</p>*/}
+        {/*</div>*/}
+        {/*<div className={classes.skills}>*/}
+        {/*  <h1>Database</h1>*/}
+        {/*  <p>*/}
+        {/*    SQL*/}
+        {/*    <br />*/}
+        {/*    Firestore*/}
+        {/*    <br />*/}
+        {/*    MongoDB*/}
+        {/*  </p>*/}
+        {/*  <h1>Version Control</h1>*/}
+        {/*  <p>Git Github</p>*/}
+        {/*</div>*/}
+        {/*</div>*/}
       </div>
     </div>
   );

@@ -5,13 +5,6 @@ import me from "../../public/work/myPic.svg";
 import Link from "next/link";
 
 const HomePage = () => {
-  const MyButton = React.forwardRef(({ onClick, href }, ref) => {
-    return (
-      <a href={href} onClick={onClick} ref={ref}>
-        Click Me
-      </a>
-    );
-  });
   return (
     <>
       <div className={classes.mainContainer}>

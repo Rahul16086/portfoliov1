@@ -11,21 +11,22 @@ const MainNavigation = () => {
   const hamToggle = () => {
     setHamClicked(() => !hamClicked);
   };
+
   return (
     <header className={classes.header}>
       {hamClicked && (
         <div className={classes.mobileView}>
           <ul>
-            <Link href={"/"}>
+            <Link href={"/"} passHref>
               <li onClick={hamToggle}>Home</li>
             </Link>
-            <Link href={"/skills"}>
+            <Link href={"/skills"} passHref>
               <li onClick={hamToggle}>Skills</li>
             </Link>
-            <Link href={"/works"}>
+            <Link href={"/works"} passHref>
               <li onClick={hamToggle}>Work</li>
             </Link>
-            <Link href={"/contactme"}>
+            <Link href={"/contactme"} passHref>
               <li onClick={hamToggle}>Contact Me</li>
             </Link>
           </ul>
@@ -35,19 +36,19 @@ const MainNavigation = () => {
         <div className={classes.hamburger}>
           <Hamburger toggle={setHamClicked} toggled={hamClicked} />
         </div>
-        <Link href={"/"}>
+        <Link href={"/"} passHref>
           <Image className={classes.logo} src={logo} alt={"logo"} />
         </Link>
       </div>
       <div className={classes.rightSideContainer}>
         <ul>
-          <Link href={"/skills"}>
+          <Link href={"/skills"} passHref>
             <li>Skills</li>
           </Link>
-          <Link href={"/works"}>
+          <Link href={"/works"} passHref>
             <li>Work</li>
           </Link>
-          <Link href={"/contactme"}>
+          <Link href={"/contactme"} passHref>
             <li>Contact Me</li>
           </Link>
         </ul>

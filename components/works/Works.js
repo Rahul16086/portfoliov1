@@ -19,7 +19,7 @@ const WorkComponent = () => {
         <div className={classes.workContainer} key={key}>
           <div className={classes.slidesContainer}>
             <div className={classes.slides}>
-              {dumbMobileToggled && (
+              {dumbMobileToggled ? (
                 <Slide transitionDuration={700}>
                   {work.slides.map((slide, key) => (
                     <div key={key}>
@@ -27,8 +27,7 @@ const WorkComponent = () => {
                     </div>
                   ))}
                 </Slide>
-              )}
-              {!dumbMobileToggled && (
+              ) : work.mobile ? (
                 <div className={classes.slides}>
                   <Slide transitionDuration={700}>
                     {work.mSlides.map((mSlide, key) => (
@@ -38,6 +37,14 @@ const WorkComponent = () => {
                     ))}
                   </Slide>
                 </div>
+              ) : (
+                <Slide transitionDuration={700}>
+                  {work.slides.map((slide, key) => (
+                    <div key={key}>
+                      <Image src={slide} alt={"slides"} />
+                    </div>
+                  ))}
+                </Slide>
               )}
             </div>
           </div>

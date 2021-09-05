@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* eslint-disable-next-line react/no-unescaped-entities,@next/next/no-title-in-document-head */}
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <title>Rahul's Portfolio</title>
           <meta name={"description"} content={"A simple portfolio"} />
           <meta name={"viewport"} content={"initial-scale=1"} />

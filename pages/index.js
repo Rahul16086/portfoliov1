@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <title>Rahul's Portfolio</title>
         <meta name={"description"} content={"A simple portfolio"} />
         <html lang={"en"} />

@@ -138,6 +138,7 @@
 .individual p{
     margin-top: auto;
     align-self: flex-end;
+    width: 20%;
 }
 
 @media (max-width: 40rem) {

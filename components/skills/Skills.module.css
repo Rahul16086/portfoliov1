@@ -175,6 +175,7 @@
     .skills p{
         font-size: 1rem ;
         letter-spacing: 1px;
+        width: 40%;
     }
 
     .consolidatedSkills span{

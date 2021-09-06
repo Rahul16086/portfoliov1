@@ -19,8 +19,26 @@ import spotifyTechStack from "../../public/work/spotify-clone/TechStack.svg";
 import logoLogin from "../../public/work/spotify-clone/logologin.png";
 import spotifyHome from "../../public/work/spotify-clone/home.png";
 import loginApi from "../../public/work/spotify-clone/apiLogin.png";
+import pfHome from "../../public/work/portfolio/home.png";
+import pfSkills from "../../public/work/portfolio/skills.png";
+import pfWork from "../../public/work/portfolio/work.png";
+import pfAbout from "../../public/work/portfolio/about.png";
+import pfError from "../../public/work/portfolio/error.png";
+import pfMobile1 from "../../public/work/portfolio/mobile/homabtskl.png";
+import pfMobile2 from "../../public/work/portfolio/mobile/workhammenu404.png";
+import pfTechStack from "../../public/work/portfolio/pfTechstack.svg";
 
 export const WorksData = [
+  {
+    title: "Portfolio",
+    description: "My first portfolio page which I build using NextJS.",
+    slides: [pfHome, pfSkills, pfWork, pfAbout, pfError],
+    mSlides: [pfMobile1, pfMobile2],
+    techStack: pfTechStack,
+    mobile: true,
+    viewLink: "https://rportfolio.vercel.app/",
+    codeLink: "https://github.com/Rahul16086/portfoliov1",
+  },
   {
     title: "Dumb Notes",
     description:

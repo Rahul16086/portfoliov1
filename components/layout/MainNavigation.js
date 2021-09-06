@@ -16,19 +16,33 @@ const MainNavigation = () => {
     <header className={classes.header}>
       {hamClicked && (
         <div className={classes.mobileView}>
+          {/*<ul>*/}
+          {/*  <Link href={"/"} passHref>*/}
+          {/*    <li onClick={hamToggle}>Home</li>*/}
+          {/*  </Link>*/}
+          {/*  <Link href={"/skills"} passHref>*/}
+          {/*    <li onClick={hamToggle}>Skills</li>*/}
+          {/*  </Link>*/}
+          {/*  <Link href={"/works"} passHref>*/}
+          {/*    <li onClick={hamToggle}>Work</li>*/}
+          {/*  </Link>*/}
+          {/*  <Link href={"/contactme"} passHref>*/}
+          {/*    <li onClick={hamToggle}>Contact Me</li>*/}
+          {/*  </Link>*/}
+          {/*</ul>*/}
           <ul>
-            <Link href={"/"} passHref>
-              <li onClick={hamToggle}>Home</li>
-            </Link>
-            <Link href={"/skills"} passHref>
-              <li onClick={hamToggle}>Skills</li>
-            </Link>
-            <Link href={"/works"} passHref>
-              <li onClick={hamToggle}>Work</li>
-            </Link>
-            <Link href={"/contactme"} passHref>
-              <li onClick={hamToggle}>Contact Me</li>
-            </Link>
+            <li>
+              <Link href={"/"}>Home</Link>
+            </li>
+            <li>
+              <Link href={"/skills"}>Skills</Link>
+            </li>
+            <li>
+              <Link href={"/works"}>Work</Link>
+            </li>
+            <li>
+              <Link href={"/contactme"}>Contact</Link>
+            </li>
           </ul>
         </div>
       )}
@@ -36,21 +50,35 @@ const MainNavigation = () => {
         <div className={classes.hamburger}>
           <Hamburger toggle={setHamClicked} toggled={hamClicked} />
         </div>
-        <Link href={"/"} passHref>
-          <Image className={classes.logo} src={logo} alt={"logo"} />
+        {/* eslint-disable-next-line @next/next/link-passhref */}
+        <Link href={"/"}>
+          <div>
+            <Image className={classes.logo} src={logo} alt={"logo"} />
+          </div>
         </Link>
       </div>
       <div className={classes.rightSideContainer}>
+        {/*<ul>*/}
+        {/*  <Link href={"/skills"} passHref>*/}
+        {/*    <li>Skills</li>*/}
+        {/*  </Link>*/}
+        {/*  <Link href={"/works"} passHref>*/}
+        {/*    <li>Work</li>*/}
+        {/*  </Link>*/}
+        {/*  <Link href={"/contactme"} passHref>*/}
+        {/*    <li>Contact Me</li>*/}
+        {/*  </Link>*/}
+        {/*</ul>*/}
         <ul>
-          <Link href={"/skills"} passHref>
-            <li>Skills</li>
-          </Link>
-          <Link href={"/works"} passHref>
-            <li>Work</li>
-          </Link>
-          <Link href={"/contactme"} passHref>
-            <li>Contact Me</li>
-          </Link>
+          <li>
+            <Link href={"/skills"}>Skills</Link>
+          </li>
+          <li>
+            <Link href={"/works"}>Work</Link>
+          </li>
+          <li>
+            <Link href={"/contactme"}>About</Link>
+          </li>
         </ul>
       </div>
       <Backdrop open={hamClicked} onClick={hamToggle} />

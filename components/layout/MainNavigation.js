@@ -16,31 +16,17 @@ const MainNavigation = () => {
     <header className={classes.header}>
       {hamClicked && (
         <div className={classes.mobileView}>
-          {/*<ul>*/}
-          {/*  <Link href={"/"} passHref>*/}
-          {/*    <li onClick={hamToggle}>Home</li>*/}
-          {/*  </Link>*/}
-          {/*  <Link href={"/skills"} passHref>*/}
-          {/*    <li onClick={hamToggle}>Skills</li>*/}
-          {/*  </Link>*/}
-          {/*  <Link href={"/works"} passHref>*/}
-          {/*    <li onClick={hamToggle}>Work</li>*/}
-          {/*  </Link>*/}
-          {/*  <Link href={"/contactme"} passHref>*/}
-          {/*    <li onClick={hamToggle}>Contact Me</li>*/}
-          {/*  </Link>*/}
-          {/*</ul>*/}
           <ul>
-            <li>
+            <li onClick={hamToggle}>
               <Link href={"/"}>Home</Link>
             </li>
-            <li>
+            <li onClick={hamToggle}>
               <Link href={"/skills"}>Skills</Link>
             </li>
-            <li>
+            <li onClick={hamToggle}>
               <Link href={"/works"}>Work</Link>
             </li>
-            <li>
+            <li onClick={hamToggle}>
               <Link href={"/contactme"}>Contact</Link>
             </li>
           </ul>
@@ -58,17 +44,6 @@ const MainNavigation = () => {
         </Link>
       </div>
       <div className={classes.rightSideContainer}>
-        {/*<ul>*/}
-        {/*  <Link href={"/skills"} passHref>*/}
-        {/*    <li>Skills</li>*/}
-        {/*  </Link>*/}
-        {/*  <Link href={"/works"} passHref>*/}
-        {/*    <li>Work</li>*/}
-        {/*  </Link>*/}
-        {/*  <Link href={"/contactme"} passHref>*/}
-        {/*    <li>Contact Me</li>*/}
-        {/*  </Link>*/}
-        {/*</ul>*/}
         <ul>
           <li>
             <Link href={"/skills"}>Skills</Link>

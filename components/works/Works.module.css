@@ -64,7 +64,7 @@
 
 .details button{
     width: 7vw;
-    height: 35px;
+    height: 4.5vh;
     font-family: Poppins,sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -76,7 +76,7 @@
 }
 
 .buttonsContainer{
-    width: 100%;
+    width: 90%;
 }
 
 .details div{
@@ -131,5 +131,9 @@
     .buttonsContainer{
         width: 100%;
         margin: 10px;
+    }
+
+    .details button{
+        width: 25vw;
     }
 }

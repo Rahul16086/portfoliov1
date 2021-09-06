@@ -63,7 +63,7 @@
 }
 
 .details button{
-    width: 100px;
+    width: 7vw;
     height: 35px;
     font-family: Poppins,sans-serif;
     font-weight: bolder;
@@ -76,7 +76,7 @@
 }
 
 .buttonsContainer{
-    width: 50%;
+    width: 100%;
 }
 
 .details div{

@@ -52,7 +52,7 @@ const MainNavigation = () => {
         </div>
         {/* eslint-disable-next-line @next/next/link-passhref */}
         <Link href={"/"}>
-          <div>
+          <div className={classes.logoContainer}>
             <Image className={classes.logo} src={logo} alt={"logo"} />
           </div>
         </Link>

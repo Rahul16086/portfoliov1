@@ -26,10 +26,17 @@
     display: none;
 }
 
+.logoContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     cursor: pointer;
     object-fit: contain;
-    transform: scale(.8);
+    transform: scale(.7);
 }
 
 .rightSideContainer{

@@ -6,6 +6,7 @@
     flex-direction: column;
     background-image: url("../../public/BG Ellipse.png");
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 .firstHalf{

@@ -18,7 +18,8 @@
 
 .consolidatedSkills{
     width: 30vw;
-    height: 220px;
+    height: 50vh;
+    max-height: 220px;
     margin-top: 2vh;
     background: rgba( 194, 145, 21, 0.30 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -33,7 +34,7 @@
 }
 
 .skillName{
-    font-size: 1.2rem;
+    font-size: calc(5px + 1vw);
     font-weight: bolder;
     letter-spacing: 2px;
 }
@@ -116,12 +117,15 @@
 .individual h1{
     color: #C29115;
     width: 100%;
+    font-size: calc(8px + 2vw);
 }
 
 .individual p{
     margin-top: auto;
     align-self: flex-end;
     width: 30%;
+    min-width: 50px;
+    font-size: calc(5px + 1vw);
 }
 
 @media (max-width: 40rem) {

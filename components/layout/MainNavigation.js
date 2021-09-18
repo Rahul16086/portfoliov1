@@ -67,7 +67,11 @@ const MainNavigation = () => {
           </li>
         </ul>
       </div>
-      <Backdrop open={hamClicked} onClick={hamToggle} />
+      <Backdrop
+        open={hamClicked}
+        onClick={hamToggle}
+        transitionDuration={650}
+      />
     </header>
   );
 };

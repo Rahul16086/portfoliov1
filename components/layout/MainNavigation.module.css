@@ -99,7 +99,6 @@
     .mobileView ul{
         margin-top: 10vh;
         margin-left: 2px;
-        transition: all 1s ease-in;
     }
 
     .mobileView li{

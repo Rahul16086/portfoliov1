@@ -16,6 +16,10 @@ class MyDocument extends Document {
           <title>Rahul's Portfolio</title>
           <meta name={"description"} content={"A simple portfolio"} />
           <meta name={"viewport"} content={"initial-scale=1"} />
+          <meta
+            name="google-site-verification"
+            content="4tA71Yq5YjpTCiFTerxcl8LQO1Q4OJxZ2idGSbB0Nuc"
+          />
           <html lang={"en"} />
         </Head>
         <body>

@@ -18,9 +18,10 @@
 
 .consolidatedSkills{
     width: 30vw;
-    height: 40vw;
-    max-height: 300px;
     margin-top: 2vh;
+    height: 15vw;
+    min-height: 200px;
+    max-height: 350px;
     background: rgba( 194, 145, 21, 0.30 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );

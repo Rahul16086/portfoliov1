@@ -100,16 +100,18 @@
         flex-direction: column;
         width: 92vw;
         margin: 10px 0 10px 0;
+        align-items: center;
     }
 
     .slidesContainer{
-        width: 100%;
+        width: 95%;
         padding: 0;
         margin: 10px 0 0 0;
     }
 
     .slides{
         padding: 0;
+        width: 100%;
     }
 
     .details{

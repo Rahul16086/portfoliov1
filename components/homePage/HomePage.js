@@ -14,9 +14,6 @@ const HomePage = () => {
             I am a fullstack web developer. I build webpages which are both
             responsive and interactive.
           </h2>
-          {/*<Link href={"/contactme"} passHref>*/}
-          {/*  <button>Catch me here!</button>*/}
-          {/*</Link>*/}
           <button>
             <Link href={"/contactme"}>Catch me here!</Link>
           </button>

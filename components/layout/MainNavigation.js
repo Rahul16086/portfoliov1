@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hamburger from "hamburger-react";
 import Backdrop from "@material-ui/core/Backdrop";
-import cv from "../../public/Resume 27092021 .pdf";
+import cv from "../../public/Resume A4.pdf";
 
 const MainNavigation = () => {
   const [hamClicked, setHamClicked] = useState(false);

@@ -29,7 +29,7 @@ import pfMobile2 from "../../public/work/portfolio/mobile/workhammenu404.png";
 import pfTechStack from "../../public/work/portfolio/pfTechstack.svg";
 import tdLandingOne from "../../public/work/tindev/landingPage.jpg";
 import tdLandingTwo from "../../public/work/tindev/landingPage2.jpg";
-import tdMatchmaker from "../../public/work/tindev/matchmaker.jpg";
+import tdMatchmakerMain from "../../public/work/tindev/matchmakerMain.jpg";
 import tdMatchmakerRight from "../../public/work/tindev/matchmakerSwipeRight.jpg";
 import tdMatchmakerLeft from "../../public/work/tindev/matchmakerSwipeLeft.jpg";
 import tdProfile from "../../public/work/tindev/Profile.jpg";
@@ -49,7 +49,7 @@ export const WorksData = [
     slides: [
       tdLandingOne,
       tdLandingTwo,
-      tdMatchmaker,
+      tdMatchmakerMain,
       tdMatchmakerRight,
       tdMatchmakerLeft,
       tdProfile,

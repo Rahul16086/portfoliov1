@@ -1,7 +1,7 @@
 export const SkillsData = [
   {
     SkillTitle: "Languages",
-    Skills: ["Javascript", "Python", "Typescript", "Java", "C"],
+    Skills: ["Javascript", "Java","Go","Python", "Typescript"],
   },
   {
     SkillTitle: "Front-end",

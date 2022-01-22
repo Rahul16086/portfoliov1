@@ -27,8 +27,44 @@ import pfError from "../../public/work/portfolio/error.png";
 import pfMobile1 from "../../public/work/portfolio/mobile/homabtskl.png";
 import pfMobile2 from "../../public/work/portfolio/mobile/workhammenu404.png";
 import pfTechStack from "../../public/work/portfolio/pfTechstack.svg";
+import tdLandingOne from "../../public/work/tindev/landingPage.jpg";
+import tdLandingTwo from "../../public/work/tindev/landingPage2.jpg";
+import tdMatchmaker from "../../public/work/tindev/matchmaker.jpg";
+import tdMatchmakerRight from "../../public/work/tindev/matchmakerSwipeRight.jpg";
+import tdMatchmakerLeft from "../../public/work/tindev/matchmakerSwipeLeft.jpg";
+import tdProfile from "../../public/work/tindev/Profile.jpg";
+import tdProfileEDit from "../../public/work/tindev/ProfileEdit.jpg";
+import tdLogin from "../../public/work/tindev/login.jpg";
+import tdPasswordReset from "../../public/work/tindev/passwordReset.jpg";
+import tdSignUpForm from "../../public/work/tindev/signupForm.jpg";
+import tdSignUpFormTwo from "../../public/work/tindev/signupFormTwo.jpg";
+import tdSignUpFormTwoTwo from "../../public/work/tindev/signupFormTwoTwo.jpg";
+import tdTechStack from "../../public/work/tindev/tdTechStack.svg";
 
 export const WorksData = [
+  {
+    title: "tinDev",
+    description:
+      "My version of tinder, specially for developer looking for like minded people around, who can help with development",
+    slides: [
+      tdLandingOne,
+      tdLandingTwo,
+      tdMatchmaker,
+      tdMatchmakerRight,
+      tdMatchmakerLeft,
+      tdProfile,
+      tdProfileEDit,
+      tdLogin,
+      tdPasswordReset,
+      tdSignUpForm,
+      tdSignUpFormTwo,
+      tdSignUpFormTwoTwo,
+    ],
+    mobile: false,
+    techStack: tdTechStack,
+    viewLink: "https://tindev-murex.vercel.app/",
+    codeLink: "https://github.com/Rahul16086/tindev",
+  },
   {
     title: "Portfolio",
     description: "My first portfolio page which I build using NextJS.",

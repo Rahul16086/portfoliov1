@@ -28,7 +28,7 @@ const ContactMeComponent = () => {
               <Image className={classes.logo} src={github} alt={"githubLogo"} />
             </a>
           </Link>
-          <Link href={"https://www.instagram.com/r_a_h_u_l_1_6/"}>
+          <Link href={"https://www.instagram.com/_.r_.a_h_u._l._/"}>
             <a target={"_blank"}>
               <Image className={classes.logo} src={insta} alt={"instaLogo"} />
             </a>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hamburger from "hamburger-react";
 import Backdrop from "@material-ui/core/Backdrop";
-import cv from "../../public/Resume A4.pdf";
+import cva4 from "../../public/Resume A4.pdf";
 
 const MainNavigation = () => {
   const [hamClicked, setHamClicked] = useState(false);
@@ -31,7 +31,7 @@ const MainNavigation = () => {
               <Link href={"/contactme"}>Contact</Link>
             </li>
             <li>
-              <Link href={cv}>
+              <Link href={cva4}>
                 <a target={"_blank"}>CV</a>
               </Link>
             </li>
@@ -61,7 +61,7 @@ const MainNavigation = () => {
             <Link href={"/contactme"}>About</Link>
           </li>
           <li>
-            <Link href={cv}>
+            <Link href={cva4}>
               <a target={"_blank"}>CV</a>
             </Link>
           </li>
